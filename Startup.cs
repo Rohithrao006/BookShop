@@ -79,15 +79,10 @@ namespace WebApplication
 
             app.UseMvc(routes =>
             {
-<<<<<<< HEAD
+
                  routes.MapRoute(name: "areaRoute",
                     template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
-=======
-                 routes.MapRoute(
-                    name: "Areas",
-                    template: "{Area:exists}/{controller=Home}/{action=Index}/{id?}");
 
->>>>>>> 0fd1dc54d2d664619c0fd725072edfa91f0069a1
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
