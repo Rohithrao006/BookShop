@@ -13,7 +13,7 @@ using WebApplication.Data;
 using WebApplication.Models;
 using WebApplication.Services;
 
-namespace WebApplication
+namespace BookShop
 {
     public class Startup
     {
