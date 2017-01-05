@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace BookShop.Areas.Countries.Models
+namespace BookShop.Areas.Admin.Countries.Models
 {
     public class Countries
     {

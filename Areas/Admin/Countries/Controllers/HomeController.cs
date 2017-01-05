@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApplication.Areas.Countries.Controllers
+namespace WebApplication.Areas.Admin.Countries.Controllers
 {
     [Area("Countries")]
     public class HomeController : Controller
