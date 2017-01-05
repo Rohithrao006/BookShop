@@ -9,9 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using WebApplication.Data;
+using BookShop.Data;
 using BookShop.Models;
-using WebApplication.Services;
+using BookShop.Services;
 using BookShop.Areas.Admin.Models;
 
 namespace BookShop

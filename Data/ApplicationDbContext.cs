@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using BookShop.Models;
 
-namespace WebApplication.Data
+namespace BookShop.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

@@ -9,10 +9,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using BookShop.Models;
-using WebApplication.Models.AccountViewModels;
-using WebApplication.Services;
+using BookShop.Models.AccountViewModels;
+using BookShop.Services;
 
-namespace WebApplication.Controllers
+namespace BookShop.Controllers
 {
     [Authorize]
     public class AccountController : Controller

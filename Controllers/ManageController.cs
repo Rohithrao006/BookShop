@@ -7,10 +7,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BookShop.Models;
-using WebApplication.Models.ManageViewModels;
-using WebApplication.Services;
+using BookShop.Models.ManageViewModels;
+using BookShop.Services;
 
-namespace WebApplication.Controllers
+namespace BookShop.Controllers
 {
     [Authorize]
     public class ManageController : Controller
