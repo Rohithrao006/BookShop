@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookShop.Areas.Admin.Controllers
+namespace WebApplication.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CityStateController : Controller
