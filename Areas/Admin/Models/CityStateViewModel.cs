@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebApplication.Areas.Admin.Models
+namespace BookShop.Areas.Admin.Models
 {
     public class CityState
     {

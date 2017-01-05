@@ -10,21 +10,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using WebApplication.Data;
-using WebApplication.Models;
+using BookShop.Models;
 using WebApplication.Services;
 using BookShop.Areas.Admin.Models;
 
-<<<<<<< HEAD
-
 namespace BookShop
-=======
-<<<<<<< HEAD
-
-namespace WebApplication
-=======
-namespace BookShop
->>>>>>> a03f9bb7ea6bbe1eb8f4650391506eb0cae25790
->>>>>>> af3c43dd58a43589183061b72c6cce301eef254f
 {
     public class Startup
     {

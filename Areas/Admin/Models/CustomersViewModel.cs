@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApplication.Areas.Admin.Models
+namespace BookShop.Areas.Admin.Models
 {
-   // public class customer
-    // {
+   public class Customer
+   {
 
-    // }
+   }
 }
