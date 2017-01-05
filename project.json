@@ -38,7 +38,8 @@
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
       "version": "1.0.0-preview2-update1",
       "type": "build"
-    }
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0"
   },
 
   "tools": {
@@ -107,6 +108,6 @@
   },
 
   "tooling": {
-    "defaultNamespace": "WebApplication"
+    "defaultNamespace": "BookShop"
   }
 }
