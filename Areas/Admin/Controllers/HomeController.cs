@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApplication.Areas.Admin.Countries.Controllers
+namespace WebApplication.Areas.Admin.Controllers
 {
-    [Area("Countries")]
+    [Area("Admin")]
     public class HomeController : Controller
     {
         public IActionResult Index(int? id)
