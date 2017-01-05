@@ -8,7 +8,7 @@ namespace BookShop.Areas.Admin.Models
 {
     public class BookShopDBContext:DbContext
     {
-        public BookShopDBContext
+        public BookShopDBContext()
         {
             
         }
