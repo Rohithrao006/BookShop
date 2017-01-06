@@ -7,10 +7,11 @@ namespace BookShop.Areas.Admin.Models
     public class CityState
     {
         [Key]
-        public int CSNo{get;set;}
+        public int CityStateNo{get;set;}
 
         public string State{get; set;}
 
         public string City {get; set;}
+        
     }
 }

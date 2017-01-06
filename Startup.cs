@@ -40,8 +40,8 @@ namespace BookShop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //  services.AddDbContext<BookShopDBContext>(options =>
-            //     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+              services.AddDbContext<BookShopDBContext>(options =>
+                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             // Add framework services.
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
@@ -86,11 +86,11 @@ namespace BookShop
 
                 routes.MapRoute(
                 name: "areaRoute",
-                template: "{area:exists}/{controller=CityState}/{action=Index}/{id?}");
+                template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Countries}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

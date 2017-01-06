@@ -7,7 +7,7 @@ namespace BookShop.Areas.Admin.Models
         {
 
         }
-        public DbSet<Customer> Customers{get;set;}
+        public DbSet<Customers> Customers{get;set;}
         public DbSet<Countries> Countries{get;set;}
         public DbSet<CityState> CitySates{get; set;}
     }

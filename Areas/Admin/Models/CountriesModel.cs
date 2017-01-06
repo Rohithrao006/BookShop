@@ -7,6 +7,6 @@ namespace BookShop.Areas.Admin.Models
     public class Countries
     {
         [Key]
-        public String country{get;set;}
+        public string country{get;set;}
     }
 }
