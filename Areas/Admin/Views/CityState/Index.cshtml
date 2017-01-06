@@ -1,5 +1,29 @@
+@using BookShop.Areas.Admin.Models;
+@model CityState 
 @{
     ViewData["Title"] = "CityState Page";
 }
 
 <h1>welcome to CityState</h1>
+<script>
+    function onclear()
+    {
+        document.getElementById("City").value="";
+    }
+</script>
+<div>
+     @using (Html.BeginForm("Index","CityState",FormMethod.Post))
+     {
+                <label asp-for="CityStateNo">CityState :</label>
+                @Html.TextBoxFor(m=>m.CityStateNo)<br/><br/>
+
+                <label asp-for="City">City :</label>
+                @Html.TextBoxFor(m=>m.City)<br/><br/>
+
+                <label asp-for="CityStateNo">State :</label>
+                @Html.TextBoxFor(m=>m.State)<br/><br/>
+                <button onclick="onclear()">reset</button>
+                <input type="submit" >
+
+     }
+</div>
