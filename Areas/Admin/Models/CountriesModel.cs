@@ -7,7 +7,11 @@ namespace BookShop.Areas.Admin.Models
     public class Countries
     {
         [Key]
+
         public int CountryNo{get;set;}
         public String CountryName{get;set;}
+
+        public string country{get;set;}
+
     }
 }

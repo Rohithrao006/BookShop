@@ -13,5 +13,10 @@ namespace BookShop.Areas.Admin.Controllers
         {
             return View();
         }
+
+        // public JsonResult AddCustomer()
+        // {
+        //     return Json();
+        // }
     }
 }
